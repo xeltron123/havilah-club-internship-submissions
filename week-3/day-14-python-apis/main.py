@@ -5,13 +5,12 @@
 
 import requests
 import os
-from dotenv import load_dotenv
 
 # Load your API key from the environment (never hardcode it here).
 # Copy .env.example to .env and fill in your key before running.
-load_dotenv()
 
-BASE_URL = "https://world.openfoodfacts.org/api/v2/search"
+# No API key needed for OPENFOODFACTS.ORG
+BASE_URL = "https://world.openfoodfacts.org/api/v2/search" 
 
 
 # ── Step 1: Fetch Data ────────────────────────────────────────────────────────
